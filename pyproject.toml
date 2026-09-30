@@ -1,0 +1,12 @@
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = ["frontend"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B"]
+ignore = ["E501", "E701", "E702", "E741", "B008"]   # compact one-liners and FastAPI's File(...) default are intentional
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+chest_xray/
+__MACOSX/
+kaggle.json
+report.png
+.DS_Store
+.coverage
+.pytest_cache/
+htmlcov/
+node_modules/
+metrics.json

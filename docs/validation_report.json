@@ -1,0 +1,53 @@
+{
+  "n_train": 600,
+  "n_test": 200,
+  "prevalence": 0.3975,
+  "selected_features": [
+    "temp",
+    "spo2",
+    "rr",
+    "wbc",
+    "crp",
+    "fever",
+    "dyspnea",
+    "sputum"
+  ],
+  "n_selected": 8,
+  "n_available": 18,
+  "ga_best_fitness_per_generation": [
+    0.8887,
+    0.8887,
+    0.8943,
+    0.9027,
+    0.9034,
+    0.9094,
+    0.9117,
+    0.9142,
+    0.9142,
+    0.9142,
+    0.9142,
+    0.9165,
+    0.9165,
+    0.9165,
+    0.9177
+  ],
+  "auc": 0.9608745684695051,
+  "auc_ci95": [
+    0.931607074346357,
+    0.9849716658275796
+  ],
+  "auc_all_features": 0.9670467622136206,
+  "accuracy": 0.93,
+  "sensitivity": 0.8860759493670886,
+  "specificity": 0.9586776859504132,
+  "brier": 0.06668659096150151,
+  "ece": 0.03907177389380237,
+  "confusion_matrix": {
+    "tn": 116,
+    "fp": 5,
+    "fn": 9,
+    "tp": 70
+  },
+  "seed": 0,
+  "caveat": "Clinical data are synthetic and generated from the label, so these numbers are optimistic and say nothing about real-world performance."
+}
